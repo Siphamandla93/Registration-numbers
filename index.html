@@ -9,15 +9,46 @@
 </head>
 
 <body>
-    <div class="Container">
-        <div class="heading">Registration Number:</div>
+
+    <div id="Container">
+        <br>
+        <div class="heading">Registration Numbers:</div>
         <br>
         <br>
-<left><button id="Registration">CA 45679</button></left>
+
+        <div class="inputname">
+            Registration <input type="text" id="name" placeholder="Enter Registration">
+            <button type="ADD REG" id="ADDREG" value="ADD REG">ADD</button>
 
 
-            <script src="registration_number.js" charset="utf-8"></script>
-    </div>
+            <br>
+            <select id="provinces">
+            <option value="Select Town">Select Town</option>
+            <option value="ALL">All Towns</option>
+            <option value="CA">Cape Town</option>
+            <option value="EC">Eastern</option>
+            <option value="GP">Gauteng</option>
+            <option value="LI">Limpompo</option>
+            <option value="PE">Port Elizaberth</option>
+            </select>
+        </div>
+
+
+    <br>
+    <center>
+        <ul id="regNumber"></ul>
+    </center>
+
+    <br>
+    <br>
+
+    <ul id="output">
+
+                <br>
+
+
+                <script src="registration_number.js" charset="utf-8"></script>
+</div>
 </body>
 
 </html>
